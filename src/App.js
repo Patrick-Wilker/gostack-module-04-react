@@ -1,10 +1,10 @@
 import React from 'react'
 import './App.css'
 
-import sky from './assets/sky.jpg'
+import TechList from './components/TechList'
 
 function App(){
-    return <img width="200px" src={sky} />
+    return <TechList />
 }
 
 export default App
